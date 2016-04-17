@@ -23,7 +23,7 @@ namespace EchoBotService.Controllers
             {
                
                 // return our reply to the user
-                return message.CreateReplyMessage($"With Love, you said : {message.Text}");
+                return message.CreateReplyMessage($"Service Fabric knows you said : {message.Text}");
             }
             else
             {
